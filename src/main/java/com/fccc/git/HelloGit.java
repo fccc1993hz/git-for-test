@@ -6,6 +6,6 @@ package com.fccc.git;
 public class HelloGit {
     public static void main(String[] args) {
         System.out.println("Hello Git!");
-        System.out.println("New Branch Master");
+        System.out.println("New Branch Test");
     }
 }
