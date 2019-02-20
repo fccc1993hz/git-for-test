@@ -11,5 +11,7 @@ public class HelloGit {
         System.out.println("Merge Dev To Test");
 
         System.out.println("A push something");
+
+        System.out.println("B push something");
     }
 }
