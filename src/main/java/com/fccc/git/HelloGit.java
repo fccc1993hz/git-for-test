@@ -10,6 +10,7 @@ public class HelloGit {
         System.out.println("New Branch Dev");
         System.out.println("Merge Dev To Test");
 
+        System.out.println("history 2");
         System.out.println("history 1");
     }
 }
