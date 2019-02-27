@@ -15,5 +15,7 @@ public class HelloGit {
         System.out.println("B push something");
 
         System.out.println("A2 PUSH SOMETHING");
+
+        System.out.println("555555555555");
     }
 }
