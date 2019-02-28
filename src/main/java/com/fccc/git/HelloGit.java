@@ -10,10 +10,9 @@ public class HelloGit {
         System.out.println("New Branch Dev");
         System.out.println("Merge Dev To Test");
 
-        System.out.println("A push something");
-
-        System.out.println("B push something");
-
-        System.out.println("A2 PUSH SOMETHING");
+        System.out.println("aaaaaaaaaaaa");
+        System.out.println("bbbbbbbbbbbb");
+        System.out.println("cccccccccccc");
+        System.out.println("dddddddddddd");
     }
 }
