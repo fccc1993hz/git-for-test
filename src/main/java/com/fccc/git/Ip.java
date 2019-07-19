@@ -8,5 +8,6 @@ public class Ip {
         String ip="115.233.221.202, 192.168.20.100";
         String newip = ip.split(",")[0];
         System.out.println(newip);
+        System.out.println("git diff");
     }
 }
