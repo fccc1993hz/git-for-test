@@ -12,5 +12,29 @@ public class HelloGit {
 
         System.out.println("aaaaaaaaaaaa");
         System.out.println("bbbbbbbbbbbb");
+
+
+        final String str="abcd";
+        Thread thread = new Thread(){
+            @Override
+            public void run(){
+                System.out.println(str);
+            }
+        };
+        thread.start();
+
+        final User user = new User();
+        user.setName("AAA");
+        user.setSex("F");
+        user.setAge(10);
+        user.setPhone("15755556666");
+        Thread thread1 = new Thread(){
+            @Override
+            public void run(){
+                System.out.println(user);
+            }
+        };
+
+        thread1.start();
     }
 }
