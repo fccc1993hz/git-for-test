@@ -4,11 +4,10 @@ package com.fccc.git.decorator;
  * Created by fccc on 2019/7/23
  */
 public class Mocha extends Flavour {
-    private Coffee coffee;
     private double price;
 
     public Mocha(Coffee coffee) {
-        this.coffee = coffee;
+        super(coffee);
         name = "Mocha";
         price = 1.5f;
     }
